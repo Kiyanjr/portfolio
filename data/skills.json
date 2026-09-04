@@ -1,0 +1,28 @@
+{
+  "categories": [
+    {
+      "name": "Programming Languages",
+      "skills": ["Dart", "Java", "Python"]
+    },
+    {
+      "name": "Mobile",
+      "skills": ["Flutter", "Clean Architecture", "MVVM", "Material 3", "Firebase"]
+    },
+    {
+      "name": "Frameworks & State Management",
+      "skills": ["Riverpod", "Provider", "go_router"]
+    },
+    {
+      "name": "Databases",
+      "skills": ["Drift (SQLite)", "Hive", "Firebase Firestore", "SharedPreferences"]
+    },
+    {
+      "name": "Tools",
+      "skills": ["Git", "GitHub", "Android Studio", "VS Code", "Firebase Auth"]
+    },
+    {
+      "name": "Other",
+      "skills": ["REST APIs", "dart:io Sockets"]
+    }
+  ]
+}

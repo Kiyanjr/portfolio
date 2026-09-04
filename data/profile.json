@@ -1,0 +1,30 @@
+{
+  "name": "Kiyan Johari",
+  "title": "Mobile Software Engineer",
+  "tagline": "Hands-on experince designing and shipping cross-platfrom mobile applications using Flutter and Dart",
+  "location": "Tehran, Iran",
+  "avatar": "assets/images/avatar.jpg",
+  "summary": "I'm a Flutter developer who enjoys turning ideas into complete, usable products. I care about writing clean, maintainable code and understanding how everything fits together — from the UI and state management to data flow and application architecture. I learn best by building real projects, solving problems along the way, and continuously improving how I develop.",
+  "background": "Computer Engineering graduate at Azad University (2022–2026), self-taught in mobile development alongside my degree. I started with small single-screen apps and worked my way up to full products with clean architecture, state management, and real device constraints to design around.",
+  "whatIBuild": "build complete Flutter applications with a focus on clean architecture, thoughtful UI, and reliable functionality. I enjoy taking an idea from the initial concept all the way to a working product, learning through the challenges that come with building real applications.",
+  "technologiesIEnjoy": "Flutter and Dart above all, plus the architecture layer around them: Riverpod, go_router, Drift, Hive, and raw dart:io sockets when a project calls for real networking instead of a convenient SDK.",
+  "goals": "My goal is to work alongside smart, motivated people who challenge me to improve and become a better developer. I want to be part of a team where I can learn from others, share ideas, and contribute to building real products that people actually use. For me, growth comes from working on meaningful problems, taking on new challenges, and building things that have a real impact.",
+  "email": "kianjohari81@gmail.com",
+  "github": "https://github.com/Kiyanjr",
+  "linkedin": "https://www.linkedin.com/in/kiyan-johari-831720248",
+  "telegram": "https://t.me/KiyanDev1",
+  "medium": "https://medium.com/@kiyanjr",
+  "resumeUrl": "assets/Kiyan Johari Flutter Developer.pdf",
+  "achievements": [
+    "Gold and Silver medalist, Taekwondo competitions",
+    "3-time champion, national music awards competition"
+  ],
+  "education": [
+    {
+      "degree": "B.Sc. Computer Engineering",
+      "institution": "Azad University",
+      "startDate": "2022",
+      "endDate": "2026"
+    }
+  ]
+}

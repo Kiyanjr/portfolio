@@ -1,0 +1,236 @@
+[
+  {
+    "id": "fintak",
+    "name": "Fintak",
+    "shortDescription": "A personal finance tracker built end-to-end in Flutter, with local-only data storage.",
+    "fullDescription": "Fintak is a personal finance tracker covering full transaction CRUD, category-based budgeting, and statistical charts for spending trends. Firebase Auth handles sign-in only \u2014 every financial record stays on-device in SharedPreferences, with no Firestore dependency, so the app works fully offline and keeps sensitive data local.",
+    "image": "assets/images/projects/fintak/cover.jpg",
+    "screenshots": [
+      "assets/images/projects/fintak/screenshot-1.jpg",
+      "assets/images/projects/fintak/screenshot-2.jpg",
+      "assets/images/projects/fintak/screenshot-3.jpg"
+    ],
+    "technologies": [
+      "Flutter",
+      "Dart",
+      "Riverpod",
+      "MVVM",
+      "go_router",
+      "fl_chart",
+      "Firebase Auth",
+      "SharedPreferences"
+    ],
+    "category": "Mobile",
+    "githubUrl": "https://github.com/Kiyanjr/fintak",
+    "liveUrl": "",
+    "date": "2026",
+    "status": "Completed",
+    "featured": true,
+    "order": 1
+  },
+  {
+    "id": "password-manager",
+    "name": "Vault",
+    "shortDescription": "An offline-only password manager with PIN/fingerprint login and offline backup recovery.",
+    "fullDescription": "Vault stores passwords and other sensitive items fully offline, with no cloud sync anywhere in the stack. Login is by PIN or fingerprint, backed by Hive for encrypted local storage and flutter_keychain for key handling. A backup and recovery flow covers the case where a PIN is forgotten, without ever touching a server.",
+    "image": "assets/images/projects/password-manager/cover.jpg",
+    "screenshots": [
+      "assets/images/projects/password-manager/screenshot-1.jpg",
+      "assets/images/projects/password-manager/screenshot-2.jpg"
+    ],
+    "technologies": [
+      "Flutter",
+      "Dart",
+      "Riverpod",
+      "MVVM",
+      "Hive",
+      "flutter_keychain"
+    ],
+    "category": "Mobile",
+    "githubUrl": "",
+    "liveUrl": "",
+    "date": "2026",
+    "status": "In Progress",
+    "featured": false,
+    "order": 4
+  },
+  {
+    "id": "stormeye",
+    "name": "StormEye",
+    "shortDescription": "A minimal weather app with city-specific, multi-day forecasts.",
+    "fullDescription": "StormEye delivers city-specific weather data, including wind conditions and multi-day forecasts, through a minimal and smooth UI backed by a REST API and Dart's async/await.",
+    "image": "assets/images/projects/stormeye/cover.jpg",
+    "screenshots": [
+      "assets/images/projects/stormeye/screenshot-1.jpg"
+    ],
+    "technologies": [
+      "Flutter",
+      "Dart",
+      "REST API"
+    ],
+    "category": "Mobile",
+    "githubUrl": "",
+    "liveUrl": "",
+    "date": "2025",
+    "status": "Completed",
+    "featured": true,
+    "order": 7
+  },
+  {
+    "id": "chatapp",
+    "name": "ChatApp",
+    "shortDescription": "A real-time messaging app backed by Firebase Firestore.",
+    "fullDescription": "A real-time messaging application with user registration and login, syncing messages across devices through Firebase Firestore and Firebase Auth.",
+    "image": "assets/images/projects/chatapp/cover.jpg",
+    "screenshots": [
+      "assets/images/projects/chatapp/screenshot-1.jpg"
+    ],
+    "technologies": [
+      "Flutter",
+      "Firebase Auth",
+      "Firestore"
+    ],
+    "category": "Mobile",
+    "githubUrl": "",
+    "liveUrl": "",
+    "date": "2025",
+    "status": "Completed",
+    "featured": true,
+    "order": 8
+  },
+  {
+    "id": "e-shop",
+    "name": "E-Shop",
+    "shortDescription": "A scalable e-commerce app with a product catalog, cart, and authentication.",
+    "fullDescription": "E-Shop covers product catalog browsing, cart functionality, and user authentication flows behind a responsive UI, built with clean architecture patterns and a Provider-driven state layer.",
+    "image": "assets/images/projects/e-shop/cover.jpg",
+    "screenshots": [
+      "assets/images/projects/e-shop/screenshot-1.jpg"
+    ],
+    "technologies": [
+      "Flutter",
+      "Dart",
+      "Provider",
+      "REST API"
+    ],
+    "category": "Mobile",
+    "githubUrl": "",
+    "liveUrl": "",
+    "date": "2025",
+    "status": "Completed",
+    "featured": true,
+    "order": 9
+  },
+  {
+    "id": "habit-tracker",
+    "name": "Habit Tracker",
+    "shortDescription": "A habit-tracking app with streaks and local-only data.",
+    "fullDescription": "Habit Tracker helps users manage daily habits with progress details and consistency streaks, backed by local data storage and a structured Provider state layer.",
+    "image": "assets/images/projects/habit-tracker/cover.jpg",
+    "screenshots": [
+      "assets/images/projects/habit-tracker/screenshot-1.jpg"
+    ],
+    "technologies": [
+      "Flutter",
+      "Provider"
+    ],
+    "category": "Mobile",
+    "githubUrl": "",
+    "liveUrl": "",
+    "date": "2025",
+    "status": "Completed",
+    "featured": false,
+    "order": 10
+  },
+  {
+    "id": "telegram-java-bot",
+    "name": "TelegramJavaBot",
+    "shortDescription": "A Telegram bot built in Java.",
+    "fullDescription": "An early Java project building a Telegram bot from scratch \u2014 handling the Bot API directly rather than through a higher-level framework, as a way into working with external APIs and webhooks.",
+    "image": "assets/images/projects/telegram-java-bot/cover.jpg",
+    "screenshots": [],
+    "technologies": [
+      "Java",
+      "Telegram Bot API"
+    ],
+    "category": "Other",
+    "githubUrl": "https://github.com/Kiyanjr/TelegramJavaBot",
+    "liveUrl": "",
+    "date": "2024",
+    "status": "Completed",
+    "featured": false,
+    "order": 11
+  },
+  {
+    "id": "tic-tac-toe",
+    "name": "TicTacToe",
+    "shortDescription": "A classic Tic-Tac-Toe game built in Java.",
+    "fullDescription": "A Java implementation of Tic-Tac-Toe \u2014 game state, win detection, and turn logic, built as a fundamentals exercise.",
+    "image": "assets/images/projects/tic-tac-toe/cover.jpg",
+    "screenshots": [],
+    "technologies": [
+      "Java"
+    ],
+    "category": "Other",
+    "githubUrl": "https://github.com/Kiyanjr/TicTacToe",
+    "liveUrl": "",
+    "date": "2024",
+    "status": "Completed",
+    "featured": false,
+    "order": 12
+  },
+  {
+    "id": "hangman-java",
+    "name": "HangManJava",
+    "shortDescription": "A Hangman word-guessing game built in Java.",
+    "fullDescription": "A Java build of the classic Hangman game \u2014 word selection, guess tracking, and win/lose state, built as a fundamentals exercise.",
+    "image": "assets/images/projects/hangman-java/cover.jpg",
+    "screenshots": [],
+    "technologies": [
+      "Java"
+    ],
+    "category": "Other",
+    "githubUrl": "https://github.com/Kiyanjr/HangManJava",
+    "liveUrl": "",
+    "date": "2024",
+    "status": "Completed",
+    "featured": false,
+    "order": 13
+  },
+  {
+    "id": "blackjack",
+    "name": "BlackJack",
+    "shortDescription": "A BlackJack card game built in Java.",
+    "fullDescription": "A Java implementation of BlackJack \u2014 deck and card modeling, dealer logic, and scoring rules, built as a fundamentals exercise.",
+    "image": "assets/images/projects/blackjack/cover.jpg",
+    "screenshots": [],
+    "technologies": [
+      "Java"
+    ],
+    "category": "Other",
+    "githubUrl": "https://github.com/Kiyanjr/BlackJack",
+    "liveUrl": "",
+    "date": "2024",
+    "status": "Completed",
+    "featured": false,
+    "order": 14
+  },
+  {
+    "id": "quiz-app",
+    "name": "Quiz_app",
+    "shortDescription": "A quiz application built in C++.",
+    "fullDescription": "A C++ quiz application \u2014 question flow, scoring, and program structure, built as a fundamentals exercise outside the Flutter/Dart stack.",
+    "image": "assets/images/projects/quiz-app/cover.jpg",
+    "screenshots": [],
+    "technologies": [
+      "C++"
+    ],
+    "category": "Other",
+    "githubUrl": "https://github.com/Kiyanjr/Quiz_app",
+    "liveUrl": "",
+    "date": "2024",
+    "status": "Completed",
+    "featured": false,
+    "order": 15
+  }
+]

@@ -1,0 +1,69 @@
+/* =========================================================
+   responsive.css — breakpoints
+   ========================================================= */
+
+/* Laptop / narrow desktop — collapse nav to the hamburger menu well
+   before it gets cramped (this was the actual overflow bug: the old
+   860px breakpoint left ~900-1150px windows with a nav row that had
+   no wrap fallback and could push the page wider than the viewport). */
+@media (max-width: 1080px) {
+  .nav-links {
+    position: fixed;
+    inset: 4rem 0 auto 0;
+    background: var(--bg-elevated);
+    border-bottom: 1px solid var(--border);
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1.25rem var(--content-pad) 1.75rem;
+    gap: 1rem;
+    transform: translateY(-8px);
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.18s ease, transform 0.18s ease;
+  }
+  .nav-links[data-open="true"] {
+    opacity: 1;
+    transform: translateY(0);
+    pointer-events: auto;
+  }
+  .nav-toggle { display: inline-grid; place-items: center; }
+}
+
+@media (max-width: 860px) {
+  .hero {
+    grid-template-columns: 1fr;
+    text-align: left;
+  }
+  .hero .phone-frame { order: -1; margin-bottom: 1rem; width: min(220px, 60vw); }
+
+  .timeline-item { grid-template-columns: 1fr; gap: 0.4rem; }
+  .about-grid { grid-template-columns: 1fr; gap: 1.5rem; }
+  .project-meta-row { grid-template-columns: 1fr; }
+  .contact-grid { grid-template-columns: 1fr; }
+}
+
+@media (max-width: 600px) {
+  .hero-meta { gap: 1rem; }
+  .hero-meta-item { min-width: 6.5rem; }
+  .project-grid { grid-template-columns: 1fr; }
+  .footer-row { flex-direction: column; align-items: flex-start; gap: 1rem; }
+  .filter-row { overflow-x: auto; flex-wrap: nowrap; padding-bottom: 0.25rem; }
+}
+
+@media (min-width: 1400px) {
+  :root { --content-width: 1240px; }
+}
+
+/* Small phones — the type scale's floor (--step-5 min 3rem / --step-4 min
+   2.4rem) was tuned for tablet/desktop and left long headlines wrapping
+   into 6-7 lines on narrow phones, making pages feel oversized and
+   cramped. Scale the display sizes down further here only; tablet and
+   laptop are untouched since this query doesn't apply there. */
+@media (max-width: 480px) {
+  :root {
+    --step-5: clamp(1.9rem, 1.5rem + 5vw, 2.6rem);
+    --step-4: clamp(1.7rem, 1.35rem + 4vw, 2.2rem);
+  }
+  .hero { padding-block: clamp(2rem, 9vw, 3rem) clamp(1.5rem, 6vw, 2.5rem); }
+  .section { padding-block: clamp(2.25rem, 8vw, 3.5rem); }
+}

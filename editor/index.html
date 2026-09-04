@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Portfolio Editor (local tool)</title>
+  <meta name="robots" content="noindex, nofollow" />
+  <link rel="stylesheet" href="../css/main.css" />
+  <link rel="stylesheet" href="editor.css" />
+</head>
+<body data-base="../">
+  <header class="ed-header">
+    <div class="container ed-header-row">
+      <h1>Portfolio Editor</h1>
+      <p class="mono">Local content tool — not part of the public site. Edits live in your browser until you export.</p>
+    </div>
+  </header>
+
+  <main class="container">
+    <p class="ed-note">
+      Loads the JSON files from <code>../data/</code>. Run this from a local static server (see the README —
+      <code>npx serve .</code> or <code>python3 -m http.server</code>) so the <code>fetch()</code> calls work;
+      opening the file directly (<code>file://</code>) will block them. When you're done, click
+      <strong>Export</strong> on a tab and replace the matching file in <code>/data/</code>, then commit.
+    </p>
+
+    <div class="ed-tabs" role="tablist" aria-label="Content sections">
+      <button class="ed-tab" role="tab" aria-selected="true" data-tab="profile">Profile</button>
+      <button class="ed-tab" role="tab" aria-selected="false" data-tab="projects">Projects</button>
+      <button class="ed-tab" role="tab" aria-selected="false" data-tab="skills">Skills</button>
+      <button class="ed-tab" role="tab" aria-selected="false" data-tab="experience">Experience</button>
+    </div>
+
+    <section id="panel-profile" class="ed-panel" data-panel="profile"></section>
+    <section id="panel-projects" class="ed-panel" data-panel="projects" hidden></section>
+    <section id="panel-skills" class="ed-panel" data-panel="skills" hidden></section>
+    <section id="panel-experience" class="ed-panel" data-panel="experience" hidden></section>
+  </main>
+
+  <div class="ed-toast" data-toast hidden></div>
+
+  <script src="editor.js" defer></script>
+</body>
+</html>

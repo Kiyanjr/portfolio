@@ -1,0 +1,20 @@
+[
+  {
+    "id": "independent-flutter-dev",
+    "position": "Independent Flutter Developer",
+    "organization": "Self-directed",
+    "startDate": "2025",
+    "endDate": "Present",
+    "description": "Im an independent Flutter Developr, leanring and building through real projects. I work on different types of applications and handle everything from the UI and app logic and state management and local data.",
+    "technologies": ["Flutter", "Dart", "State managment (Provider, Riverpod)","MVVM" ,"Clean Architecture", "Firebase","REstful APi", "Hive"]
+  },
+  {
+    "id": "education",
+    "position": "B.Sc. Computer Engineering",
+    "organization": "Azad University",
+    "startDate": "2022",
+    "endDate": "2026",
+    "description": "Rank one of my class, Coursework in computer engineering alongside independent, self-taught mobile development work.",
+    "technologies": []
+  }
+]
