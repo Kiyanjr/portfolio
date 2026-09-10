@@ -232,5 +232,30 @@
     "status": "Completed",
     "featured": false,
     "order": 15
+  },
+   {
+    "id": "journal-app",
+    "name": "Mindlog",
+    "shortDescription": "A private jorunal app for capturing daily thoughts,memories,and personal moments",
+    "fullDescription": "A personal journing app designed to make documenting thoughts,experince, and daily moments by writing adding pictures and you can add tag to organized your joruny in this app",
+    "image": "assets/images/projects/journal-app/cover.jpg",
+    "screenshots": [
+      "assets/images/projects/journal-app/screenshot-1.jpg",
+      "assets/images/projects/journal-app/screenshot-2.jpg"
+    ],
+    "technologies": [
+      "Flutter",
+      "Dart",
+      "Riverpod",
+      "MVVM",
+      "Hive"
+    ],
+    "category": "Mobile",
+    "githubUrl": "",
+    "liveUrl": "",
+    "date": "2026",
+    "status": "In Progress",
+    "featured": false,
+    "order": 14
   }
 ]
